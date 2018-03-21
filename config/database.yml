@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  database: appointment_me_production
+  database: <%= ENV.fetch("DATABASE_URL") %>
