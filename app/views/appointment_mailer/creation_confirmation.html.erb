@@ -1,0 +1,7 @@
+
+<p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Hi there,</p>
+<p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;"> You just created an appointment <strong><%= @appointment.title %></strong> that will happen at <strong><%= @appointment.appointment_date.strftime('%H:%M on the %d, %b %Y') %>.</strong>
+</p>
+<p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Don't worry! Before your appointment we will notify you at <strong><%= @appointment.notification.strftime('%H:%M on the %d, %b %Y') %>.</strong>
+</p>
+
