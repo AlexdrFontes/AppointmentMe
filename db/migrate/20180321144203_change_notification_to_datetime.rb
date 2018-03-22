@@ -5,7 +5,7 @@ class ChangeNotificationToDatetime < ActiveRecord::Migration[5.1]
   end
 
   def down
-    remove_column :appointments, :notification, :datetim
+    remove_column :appointments, :notification, :datetime
     add_column :appointments, :notification, :string
   end
 end
