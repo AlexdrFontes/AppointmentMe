@@ -1,24 +1,23 @@
-# README
+:::::::::: AppointmentMe ::::::::::
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+AppointmentMe is an API developed to record an appointment for a especific date and be reminded about that event.
 
-Things you may want to cover:
+This simple API covers the following topic of Ruby on Rails:
 
-* Ruby version
+* All app covered with Rspec Tests - Models and Controllers;
 
-* System dependencies
+* Validations;
 
-* Configuration
+* CRUD methods from Active Record;
 
-* Database creation
+* App created without views, can be called with a REST client;
 
-* Database initialization
+* Mailler integration with SendGrid;
 
-* How to run the test suite
+* Background job - Sends email;
 
-* Services (job queues, cache servers, search engines, etc.)
+* API Deployed on Heroku - https://appointmentme.herokuapp.com/.
 
-* Deployment instructions
+For using and testing I would advise you to use the Insomnia REST Client.
 
-* ...
+Created by Alexandre Fontes on the 22/03/2018
